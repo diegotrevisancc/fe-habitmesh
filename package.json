@@ -4,8 +4,16 @@
   "description": "habitmesh front-end ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "esbuild index.ts --bundle --outfile=bin/main.js --watch"
   },
   "author": "Diego Trevisan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^2.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.4",
+    "typescript": "^5.8.3"
+  }
 }
