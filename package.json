@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "esbuild index.ts --bundle --outfile=bin/main.js --watch"
+    "start": "esbuild src/index.ts --bundle --outfile=bin/main.js --watch"
   },
   "author": "Diego Trevisan",
   "license": "ISC",
